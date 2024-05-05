@@ -57,3 +57,9 @@ ul.timeline {
   background-position: center;
   background-size: cover;
 }
+
+@media screen and (min-width: 780px) {
+  .modal-dialog.max-limit {
+    max-width: calc(100% - 10rem);
+  }
+}
