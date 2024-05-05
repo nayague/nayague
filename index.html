@@ -30,12 +30,14 @@
         <span class="badge bg-dark">Relational Databases</span> such as
         <span class="badge" style="background-color: #f29111;">MySQL</span>,
         <span class="badge bg-dark">MariaDB</span>,
-        <span class="badge bg-danger">MSSQL</span> also 
+        <span class="badge bg-danger">MSSQL</span> also
         <span class="badge bg-dark">None-relational Databases</span> such as
         <span class="badge bg-success">MongoDB</span> and cloud computing such as
-        <span class="badge" style="background-color: #FFA611;">Firebase</span>, I excel in crafting user-centric web apps. Passionate about
+        <span class="badge" style="background-color: #FFA611;">Firebase</span>, I excel in crafting user-centric web
+        apps. Passionate about
         innovative UI design, I'm always learning and staying updated on JavaScript trends. Eager to join a
-        collaborative team to further grow and contribute.</p>
+        collaborative team to further grow and contribute.
+      </p>
       <a href="https://www.linkedin.com/in/gayan-sandamal/" target="_blank">
         <button type="button" class="btn btn-outline-primary">
           <i class="fa-brands fa-linkedin-in"></i>
@@ -200,7 +202,8 @@
             <h3 class="timeline-title">3CS - Sri Lanka (On-site)</h3>
             <span class="text-muted">Associate Web Designer - Feb 2016 - August 2016</span>
             <p>
-              - Skilled in website and application design using Adobe Photoshop, seamlessly transitioning to Figma and Adobe XD as industry standards evolved.
+              - Skilled in website and application design using Adobe Photoshop, seamlessly transitioning to Figma and
+              Adobe XD as industry standards evolved.
             </p>
           </div>
         </li>
@@ -218,15 +221,29 @@
   </section>
 
   <section class="projects container mt-5">
-    <h2 class="mb-4">Popular Projects</h2>
+    <h2 class="mb-4">Top Projects</h2>
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <div class="card h-100">
-          <div class="project-card" style="background-image: url('./assets/projects/planning-poker.jpeg');">
+          <!-- Modal -->
+          <div class="modal fade" id="planningPokereModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content d-flex align-items-end">
+                <button type="button" class="btn-close absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                  <img src="./assets/projects/planning-poker.jpeg" class="img-fluid" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" style="background-image: url('./assets/projects/planning-poker.jpeg');"
+            data-bs-toggle="modal" data-bs-target="#planningPokereModal">
           </div>
           <div class="card-body">
             <h5 class="card-title">Planning Poker Minimal</h5>
-            <p class="card-text">Open-source Planning Poker Minimal (GitHub) to streamline agile team estimations through a minimalist interface and leverage the power of planning poker for improved communication and decision-making. (Vue.Js and Firebase)</p>
+            <p class="card-text">Open-source Planning Poker Minimal (GitHub) to streamline agile team estimations
+              through a minimalist interface and leverage the power of planning poker for improved communication and
+              decision-making. (Vue.Js and Firebase)</p>
             <a href="https://github.com/gayanSandamal/planning-poker-minimal" target="_blank">
               <button type="button" class="btn btn-outline-secondary">
                 <i class="fa-brands fa-github"></i>
@@ -248,7 +265,9 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">Paradigm360 CRM</h5>
-            <p class="card-text">This is a private repository on GitHub and contributed to develop the frontend of the CRM application which is being used by Singaporean company Paradigm360 (Vue.Js, Pinia state manager and Firebase)</p>
+            <p class="card-text">This is a private repository on GitHub and contributed to develop the frontend of the
+              CRM application which is being used by Singaporean company Paradigm360 (Vue.Js, Pinia state manager and
+              Firebase)</p>
             <a href="https://github.com/paradigm360" target="_blank">
               <button type="button" class="btn btn-outline-secondary mb-2">
                 <i class="fa-brands fa-github"></i>
@@ -260,11 +279,23 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <div class="project-card" style="background-image: url('./assets/projects/akurata.jpeg');">
+          <div class="modal fade" id="akurataModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" style="max-width: calc(100% - 10rem);">
+              <div class="modal-content d-flex align-items-end">
+                <button type="button" class="btn-close absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                  <img src="./assets/projects/akurata.jpeg" class="img-fluid" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" style="background-image: url('./assets/projects/akurata.jpeg');"
+            data-bs-toggle="modal" data-bs-target="#akurataModal">
           </div>
           <div class="card-body">
             <h5 class="card-title">Akurata LMS</h5>
-            <p class="card-text">Learning Management System for a local tuition instructor, a learning platform used by thousands of Sri Lankan students during COVID. (Vue.Js, React, Firebase, PHP, Electron)</p>
+            <p class="card-text">Learning Management System for a local tuition instructor, a learning platform used by
+              thousands of Sri Lankan students during COVID. (Vue.Js, React, Firebase, PHP, Electron)</p>
             <a href="https://github.com/gayanSandamal/learning-management-system" target="_blank">
               <button type="button" class="btn btn-outline-secondary mb-2">
                 <i class="fa-brands fa-github"></i>
@@ -282,11 +313,27 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <div class="project-card" style="background-image: url('./assets/projects/inquest-io.jpeg');">
+          <div class="modal fade" id="inquestaModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" style="max-width: calc(100% - 10rem);">
+              <div class="modal-content d-flex align-items-end">
+                <button type="button" class="btn-close absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                  <img src="./assets/projects/inquest-io.jpeg" class="img-fluid" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" style="background-image: url('./assets/projects/inquest-io.jpeg');"
+            data-bs-toggle="modal" data-bs-target="#inquestaModal">
           </div>
           <div class="card-body">
             <h5 class="card-title">Inquest.io</h5>
-            <p class="card-text">This project involved developing a real-time audience engagement platform. Users can ask questions, upvote existing questions, and interact in other ways. I played a multifaceted role, starting with designing the user interface (UI) from wireframes to high-fidelity mockups in Figma.  Following the UI design, I focused on user experience (UX) to ensure a smooth and intuitive interaction flow. Finally, I implemented the front-end using the Vue.js framework and leveraged SignalR for real-time updates, enabling seamless interaction for the users.</p>
+            <p class="card-text">This project involved developing a real-time audience engagement platform. Users can
+              ask questions, upvote existing questions, and interact in other ways. I played a multifaceted role,
+              starting with designing the user interface (UI) from wireframes to high-fidelity mockups in Figma.
+              Following the UI design, I focused on user experience (UX) to ensure a smooth and intuitive interaction
+              flow. Finally, I implemented the front-end using the Vue.js framework and leveraged SignalR for real-time
+              updates, enabling seamless interaction for the users.</p>
             <a target="_blank">
               <button type="button" class="btn btn-outline-secondary mb-2" disabled>
                 <i class="fa-brands fa-github"></i>
@@ -304,11 +351,23 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <div class="project-card" style="background-image: url('./assets/projects/findyo.jpeg');">
+          <div class="modal fade" id="findyoaModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" style="max-width: calc(100% - 10rem);">
+              <div class="modal-content d-flex align-items-end">
+                <button type="button" class="btn-close absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                  <img src="./assets/projects/findyo.jpeg" class="img-fluid" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" style="background-image: url('./assets/projects/findyo.jpeg');"
+            data-bs-toggle="modal" data-bs-target="#findyoaModal">
           </div>
           <div class="card-body">
             <h5 class="card-title">Findyo</h5>
-            <p class="card-text">Consumer and tradesman connecting web platform which uses Vue.Js for front-end and Laravel back-end with Firebase for real-time messaging service. (Vue.Js, Laravel, Firebase)</p>
+            <p class="card-text">Consumer and tradesman connecting web platform which uses Vue.Js for front-end and
+              Laravel back-end with Firebase for real-time messaging service. (Vue.Js, Laravel, Firebase)</p>
             <a href="https://github.com/gayanSandamal/findyo" target="_blank">
               <button type="button" class="btn btn-outline-secondary mb-2">
                 <i class="fa-brands fa-github"></i>
@@ -326,7 +385,9 @@
       </div>
     </div>
   </section>
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
