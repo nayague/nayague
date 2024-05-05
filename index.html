@@ -122,6 +122,51 @@
         <div class="col">
           <div class="card h-100">
             <!-- Modal -->
+            <div class="modal fade" id="paradigm360Modal" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog max-limit">
+                <div class="modal-content d-flex align-items-end">
+                  <button type="button" class="btn-close absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-body">
+                    <img src="./assets/projects/paradigm360-1.jpeg" class="img-fluid" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card" style="background-image: url('./assets/projects/paradigm360-1.jpeg');"
+              data-bs-toggle="modal" data-bs-target="#paradigm360Modal">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Paradigm360 CRM</h5>
+              <p class="card-text">This is a private repository on GitHub and contributed to develop the frontend of the
+                CRM application which is being used by Singaporean company Paradigm360 (Vue.Js, Pinia state manager and
+                Firebase)</p>
+              <a href="https://github.com/paradigm360" target="_blank">
+                <button type="button" class="btn btn-outline-secondary mb-2">
+                  <i class="fa-brands fa-github"></i>
+                  GitHub (Private Repository)
+                </button>
+              </a>
+              <a href="https://app.paradigmbizhub.com/#/login" target="_blank">
+                <button type="button" class="btn btn-outline-success mb-2">
+                  <i class="fa-solid fa-globe"></i>
+                  Website
+                </button>
+              </a>
+              <div>
+                <p class="small fw-bold mt-3 mb-1">Technologies</p>
+                <div>
+                  <span class="badge bg-dark">Vue.Js</span>
+                  <span class="badge bg-dark">Pinia</span>
+                  <span class="badge bg-dark">Jest</span>
+                  <span class="badge bg-dark">Firebase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <!-- Modal -->
             <div class="modal fade" id="planningPokereModal" tabindex="-1" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content d-flex align-items-end">
@@ -157,33 +202,6 @@
                 <div>
                   <span class="badge bg-dark">Vue.Js</span>
                   <span class="badge bg-dark">VueX</span>
-                  <span class="badge bg-dark">Firebase</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <div class="project-card" style="background-image: url('./assets/projects/paradigm360.jpeg');">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Paradigm360 CRM</h5>
-              <p class="card-text">This is a private repository on GitHub and contributed to develop the frontend of the
-                CRM application which is being used by Singaporean company Paradigm360 (Vue.Js, Pinia state manager and
-                Firebase)</p>
-              <a href="https://github.com/paradigm360" target="_blank">
-                <button type="button" class="btn btn-outline-secondary mb-2">
-                  <i class="fa-brands fa-github"></i>
-                  GitHub (Private Repository)
-                </button>
-              </a>
-              <div>
-                <p class="small fw-bold mt-3 mb-1">Technologies</p>
-                <div>
-                  <span class="badge bg-dark">Vue.Js</span>
-                  <span class="badge bg-dark">Pinia</span>
-                  <span class="badge bg-dark">Jest</span>
                   <span class="badge bg-dark">Firebase</span>
                 </div>
               </div>
@@ -458,6 +476,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.164.1/three.module.js"
+    integrity="sha512-Q/3zf5GgHRJ3DlvRQmWOt4SHA8C1zceolMHljtRH3N8u1GESng1hVhgKixW8d6gHMaZChafNbHBS44V+oljh2Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./script.js"></script>
 </body>
 
