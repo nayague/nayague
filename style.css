@@ -69,7 +69,7 @@ ul.timeline {
   visibility: hidden;
   position: fixed;
   z-index: 999;
-  left: 2rem;
+  right: 2rem;
   top: 2rem;
 }
 
