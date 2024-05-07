@@ -17,3 +17,41 @@ function showToast(copyText) {
   // After 3 seconds, remove the show class from DIV
   setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
 }
+
+let imtxti = 0;
+let imtxt = `I'm a`; /* The text */
+let speed = 50; /* The speed/duration of the effect in milliseconds */
+
+const typeWriterIm = () => {
+  if (imtxti < imtxt.length) {
+    document.getElementById("im").innerHTML += imtxt.charAt(imtxti);
+    imtxti++;
+    setTimeout(typeWriterIm, speed);
+  } else {
+    typeWriterFS(); 
+  }
+}
+
+typeWriterIm(); 
+
+let fltxti = 0;
+let fltxt = 'Full-Stack'
+const typeWriterFS = () => {
+  if (fltxti < fltxt.length) {
+    document.getElementById("fullstack").innerHTML += fltxt.charAt(fltxti);
+    fltxti++;
+    setTimeout(typeWriterFS, speed);
+  } else {
+    typeWriterSE()
+  }
+}
+
+let setxti = 0;
+let setxt = 'Software Engineer'
+const typeWriterSE = () => {
+  if (setxti < setxt.length) {
+    document.getElementById("se").innerHTML += setxt.charAt(setxti);
+    setxti++;
+    setTimeout(typeWriterFS, speed);
+  }
+}

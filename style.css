@@ -83,6 +83,16 @@ ul.timeline {
   .modal-dialog.max-limit {
     max-width: calc(100% - 10rem);
   }
+  .hero-txt {
+    min-height: 288px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .hero-txt {
+    font-size: 2.4rem;
+    min-height: 138px;
+  }
 }
 
 /* The snackbar - position it at the bottom and in the middle of the screen */
