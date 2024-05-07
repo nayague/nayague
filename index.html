@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-dark">
 
 <head>
   <meta charset="UTF-8">
@@ -18,90 +18,117 @@
 </head>
 
 <body>
+  <div class="cover-container bg-dark text-white w-100 min-vh-100 py-5 align-items-center shadow-b-1">
+    <div class="hero-image" style="background-image: url('./assets/hero-image.webp');"></div>
+    <header class="p-3 bg-dark text-white z-1">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a class="d-flex align-items-center mb-2 mb-lg-0 me-lg-2 text-white text-decoration-none">
+            <img src="./favicon-32x32.png" class="rounded-3" alt="Gayan Sandamal">
+          </a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
+            <li><a href="#projects" class="nav-link px-2 text-white">Projects</a></li>
+            <li><a href="#experience" class="nav-link px-2 text-white">Experience</a></li>
+          </ul>
 
-  <header class="hero d-flex justify-content-center align-items-center min-vh-100">
-    <div class="container text-center">
-      <h1 class="display-1 mb-4 fw-bold">Gayan Sandamal</h1>
-      <p class="lead">Senior Full-Stack Software Engineer</p>
-      <p class="h5 mt-5 mb-5">I'm a dynamic Full-Stack Developer with 9+ years of experience, specializing in
-        JavaScript.
-        Proficient in
-        <span class="badge bg-success mb-1">Vue.js</span>,
-        <span class="badge bg-primary mb-1">React.js</span>,
-        <span class="badge bg-primary mb-1">React Native</span>,
-        <span class="badge bg-danger mb-1">Node.js</span>,
-        <span class="badge mb-1" style="background-color: purple;">PHP</span>,
-        <span class="badge bg-dark mb-1">Relational Databases</span> such as
-        <span class="badge mb-1" style="background-color: #f29111;">MySQL</span>,
-        <span class="badge bg-dark mb-1">MariaDB</span>,
-        <span class="badge bg-danger mb-1">MSSQL</span> also
-        <span class="badge bg-dark mb-1">None-relational Databases</span> such as
-        <span class="badge bg-success mb-1">MongoDB</span> and cloud computing such as
-        <span class="badge mb-1" style="background-color: #FFA611;">Firebase</span>, I excel in crafting user-centric
-        web
-        apps. Passionate about
-        innovative UI design, I'm always learning and staying updated on JavaScript trends. Eager to join a
-        collaborative team to further grow and contribute.
-      </p>
-      <a href="https://www.linkedin.com/in/gayan-sandamal/" target="_blank">
-        <button type="button" class="btn btn-outline-primary mb-2">
-          <i class="fa-brands fa-linkedin-in"></i>
-          LinkedIn
-        </button>
-      </a>
-      <a href="https://github.com/gayanSandamal/" target="_blank">
-        <button type="button" class="btn btn-outline-secondary mb-2">
-          <i class="fa-brands fa-github"></i>
-          GitHub
-        </button>
-      </a>
-      <a href="https://stackoverflow.com/users/5748470/gayan-sandamal" target="_blank">
-        <button type="button" class="btn btn-outline-success mb-2">
-          <i class="fa-brands fa-stack-overflow"></i>
-          StackOverflow
-        </button>
-      </a>
-      <a href="https://codepen.io/gayan_sandamal/" target="_blank">
-        <button type="button" class="btn btn-outline-dark mb-2">
-          <i class="fa-brands fa-codepen"></i>
-          CodePen
-        </button>
-      </a>
-      <a href="https://www.npmjs.com/search?q=gayansandamal" target="_blank">
-        <button type="button" class="btn btn-outline-danger mb-2">
-          <i class="fa-brands fa-npm"></i>
-          Node Packages
-        </button>
-      </a>
-      <a href="https://medium.com/@gayansandamal" target="_blank">
-        <button type="button" class="btn btn-outline-dark mb-2">
-          <i class="fa-brands fa-medium"></i>
-          Medium
-        </button>
-      </a>
-      <div class="mt-4">
-        <button type="button" class="btn btn-success mb-2" onclick="copyToClipBoard('gayansandamal94@gmail.com')">
-          <i class="fa-regular fa-envelope"></i>
-          gayansandamal94@gmail.com
-          <i class="fa-regular fa-copy ms-2"></i>
-        </button>
-        <button type="button" class="btn btn-outline-success mb-2" onclick="copyToClipBoard('+94752953202')">
-          <i class="fa-brands fa-whatsapp"></i>
-          +94 75 295 3202
-          <i class="fa-regular fa-copy ms-2"></i>
-        </button>
+          <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">Login</button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div> -->
+        </div>
+      </div>
+    </header>
+    <div class="d-flex align-items-center mt-5 pt-xxl-5 z-1">
+      <div class="container text-start">
+        <h1 class="display-1 fw-bold text-white mb-5 text-start"><span class="text-secondary">I'm a
+          </span><br>Full-Stack<br>Software Engineer</h1>
+        <!-- <p class="lead text-end">Gayan Sandamal</p> -->
+        <h3 class="display-4 text-white text-start">Gayan Sandamal</h3>
+        <p class="h5 mt-5 mb-5 text-start">I'm a dynamic Full-Stack Developer with 9+ years of experience, specializing
+          in
+          JavaScript.
+          Proficient in
+          <span class="badge bg-success mb-1">Vue.js</span>,
+          <span class="badge bg-primary mb-1">React.js</span>,
+          <span class="badge bg-primary mb-1">React Native</span>,
+          <span class="badge bg-danger mb-1">Node.js</span>,
+          <span class="badge mb-1" style="background-color: purple;">PHP</span>,
+          <span class="badge bg-outline-light mb-1" style="border: 1px solid #f8f9fa">Relational Databases</span> such
+          as
+          <span class="badge mb-1" style="background-color: #f29111;">MySQL</span>,
+          <span class="badge bg-outline-light mb-1" style="border: 1px solid #f8f9fa">MariaDB</span>,
+          <span class="badge bg-danger mb-1">MSSQL</span> also
+          <span class="badge bg-outline-light mb-1" style="border: 1px solid #f8f9fa">None-relational Databases</span>
+          such as
+          <span class="badge bg-success mb-1">MongoDB</span> and cloud computing such as
+          <span class="badge mb-1" style="background-color: #FFA611;">Firebase</span>, I excel in crafting user-centric
+          web apps. Passionate about innovative UI design, I'm always learning and staying updated on JavaScript trends.
+          Eager to join a collaborative team to further grow and contribute.
+        </p>
+        <div class="text-start">
+          <a href="https://www.linkedin.com/in/gayan-sandamal/" target="_blank1">
+            <button type="button" class="btn btn-outline-primary mb-3 me-2">
+              <i class="fa-brands fa-linkedin-in"></i>
+              LinkedIn
+            </button>
+          </a>
+          <a href="https://github.com/gayanSandamal/" target="_blank1">
+            <button type="button" class="btn btn-outline-light mb-3 me-2">
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </button>
+          </a>
+          <a href="https://stackoverflow.com/users/5748470/gayan-sandamal" target="_blank1">
+            <button type="button" class="btn btn-outline-success mb-3 me-2">
+              <i class="fa-brands fa-stack-overflow"></i>
+              StackOverflow
+            </button>
+          </a>
+          <a href="https://codepen.io/gayan_sandamal/" target="_blank1">
+            <button type="button" class="btn btn-outline-light mb-3 me-2">
+              <i class="fa-brands fa-codepen"></i>
+              CodePen
+            </button>
+          </a>
+          <a href="https://www.npmjs.com/search?q=gayansandamal" target="_blank1">
+            <button type="button" class="btn btn-outline-danger mb-3 me-2">
+              <i class="fa-brands fa-npm"></i>
+              Node Packages
+            </button>
+          </a>
+          <a href="https://medium.com/@gayansandamal" target="_blank">
+            <button type="button" class="btn btn-outline-light mb-3 me-2">
+              <i class="fa-brands fa-medium"></i>
+              Medium
+            </button>
+          </a>
+        </div>
+        <div class="mt-4">
+          <button type="button" class="btn btn-success mb-3 me-2"
+            onclick="copyToClipBoard('gayansandamal94@gmail.com')">
+            <i class="fa-regular fa-envelope"></i>
+            gayansandamal94@gmail.com
+            <i class="fa-regular fa-copy ms-2"></i>
+          </button>
+          <button type="button" class="btn btn-outline-success mb-3" onclick="copyToClipBoard('+94752953202')">
+            <i class="fa-brands fa-whatsapp"></i>
+            +94 75 295 3202
+            <i class="fa-regular fa-copy ms-2"></i>
+          </button>
+        </div>
       </div>
     </div>
-  </header>
+  </div>
 
-  <section class="about py-5">
-    <div class="container">
-      <h2 class="mb-4">About Me</h2>
+  <section id="about" class="about py-5">
+    <div class="container py-5">
+      <h2 class="display-4 mb-5">About Me</h2>
       <div class="row">
-        <div class="col-md-6 d-flex align-items-center">
-          <img src="./assets/gayan-sandamal.jpg" style="max-width: 400px;" alt="My Profile Picture"
-            class="img-fluid rounded-circle mx-auto d-block mb-3">
-        </div>
         <div class="col-md-6">
           <p class="lead">I'm a driven and creative Full-Stack Developer with a 9+ year passion for crafting
             user-centric web experiences. Fueled by a natural curiosity for technology and a love for tinkering, my
@@ -115,17 +142,21 @@
             users with services, using a combination of Laravel, PHP, and Firebase for back-end functionality and
             real-time communication.</p>
         </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <img src="./assets/gayan-sandamal.jpg" style="width: 100%; max-width: 400px;" alt="My Profile Picture"
+            class="img-fluid rounded-circle mx-auto d-block mb-3 shadow">
+        </div>
       </div>
     </div>
   </section>
 
   <!-- top projects -->
-  <section class="projects mt-5 py-5 bg-light">
-    <div class="container ">
-      <h2 class="mb-4">Top Projects</h2>
+  <section id="projects" class="projects py-5 bg-dark text-white shadow-b-1">
+    <div class="container py-5">
+      <h2 class="display-4 mb-5">Top Projects</h2>
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 bg-dark text-white outline-light">
             <!-- Modal -->
             <div class="modal fade" id="paradigm360Modal" tabindex="-1" aria-hidden="true">
               <div class="modal-dialog max-limit">
@@ -182,7 +213,7 @@
                 CRM application which is being used by Singaporean company Paradigm360 (Vue.Js, Pinia state manager and
                 Firebase)</p>
               <a href="https://github.com/paradigm360" target="_blank">
-                <button type="button" class="btn btn-outline-secondary mb-2">
+                <button type="button" class="btn btn-outline-light mb-2">
                   <i class="fa-brands fa-github"></i>
                   GitHub (Private Repository)
                 </button>
@@ -196,17 +227,17 @@
               <div>
                 <p class="small fw-bold mt-3 mb-1">Technologies</p>
                 <div>
-                  <span class="badge bg-dark">Vue.Js</span>
-                  <span class="badge bg-dark">Pinia</span>
-                  <span class="badge bg-dark">Jest</span>
-                  <span class="badge bg-dark">Firebase</span>
+                  <span class="badge outline-light">Vue.Js</span>
+                  <span class="badge outline-light">Pinia</span>
+                  <span class="badge outline-light">Jest</span>
+                  <span class="badge outline-light">Firebase</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 bg-dark text-white outline-light">
             <!-- Modal -->
             <div class="modal fade" id="planningPokereModal" tabindex="-1" aria-hidden="true">
               <div class="modal-dialog max-limit">
@@ -268,7 +299,7 @@
                 through a minimalist interface and leverage the power of planning poker for improved communication and
                 decision-making. (Vue.Js and Firebase)</p>
               <a href="https://github.com/gayanSandamal/planning-poker-minimal" target="_blank">
-                <button type="button" class="btn btn-outline-secondary">
+                <button type="button" class="btn btn-outline-light">
                   <i class="fa-brands fa-github"></i>
                   GitHub
                 </button>
@@ -282,16 +313,16 @@
               <div>
                 <p class="small fw-bold mt-3 mb-1">Technologies</p>
                 <div>
-                  <span class="badge bg-dark">Vue.Js</span>
-                  <span class="badge bg-dark">VueX</span>
-                  <span class="badge bg-dark">Firebase</span>
+                  <span class="badge outline-light">Vue.Js</span>
+                  <span class="badge outline-light">VueX</span>
+                  <span class="badge outline-light">Firebase</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 bg-dark text-white outline-light">
             <div class="modal fade" id="akurataModal" tabindex="-1" aria-hidden="true">
               <div class="modal-dialog max-limit">
                 <div class="modal-content d-flex align-items-end">
@@ -352,7 +383,7 @@
                 by
                 thousands of Sri Lankan students during COVID. (Vue.Js, React, Firebase, PHP, Electron)</p>
               <a href="https://github.com/gayanSandamal/learning-management-system" target="_blank">
-                <button type="button" class="btn btn-outline-secondary mb-2">
+                <button type="button" class="btn btn-outline-light mb-2">
                   <i class="fa-brands fa-github"></i>
                   GitHub
                 </button>
@@ -366,19 +397,19 @@
               <div>
                 <div>
                   <p class="small fw-bold mt-3 mb-1">Technologies</p>
-                  <span class="badge bg-dark">Vue.Js</span>
-                  <span class="badge bg-dark">VueX</span>
-                  <span class="badge bg-dark">React</span>
-                  <span class="badge bg-dark">Electron.Js</span>
-                  <span class="badge bg-dark">PHP</span>
-                  <span class="badge bg-dark">Firebase</span>
+                  <span class="badge outline-light">Vue.Js</span>
+                  <span class="badge outline-light">VueX</span>
+                  <span class="badge outline-light">React</span>
+                  <span class="badge outline-light">Electron.Js</span>
+                  <span class="badge outline-light">PHP</span>
+                  <span class="badge outline-light">Firebase</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 bg-dark text-white outline-light">
             <div class="modal fade" id="inquestaModal" tabindex="-1" aria-hidden="true">
               <div class="modal-dialog max-limit">
                 <div class="modal-content d-flex align-items-end">
@@ -458,7 +489,7 @@
                 real-time
                 updates, enabling seamless interaction for the users.</p>
               <a target="_blank">
-                <button type="button" class="btn btn-outline-secondary mb-2" disabled>
+                <button type="button" class="btn btn-outline-light mb-2" disabled>
                   <i class="fa-brands fa-github"></i>
                   GitHub (Private Repository)
                 </button>
@@ -472,16 +503,16 @@
               <div>
                 <div>
                   <p class="small fw-bold mt-3 mb-1">Technologies</p>
-                  <span class="badge bg-dark">Vue.Js</span>
-                  <span class="badge bg-dark">VueX</span>
-                  <span class="badge bg-dark">SignalR</span>
+                  <span class="badge outline-light">Vue.Js</span>
+                  <span class="badge outline-light">VueX</span>
+                  <span class="badge outline-light">SignalR</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 bg-dark text-white outline-light">
             <div class="modal fade" id="findyoaModal" tabindex="-1" aria-hidden="true">
               <div class="modal-dialog max-limit">
                 <div class="modal-content d-flex align-items-end">
@@ -500,7 +531,7 @@
               <p class="card-text">Consumer and tradesman connecting web platform which uses Vue.Js for front-end and
                 Laravel back-end with Firebase for real-time messaging service. (Vue.Js, Laravel, Firebase)</p>
               <a href="https://github.com/gayanSandamal/findyo" target="_blank">
-                <button type="button" class="btn btn-outline-secondary mb-2">
+                <button type="button" class="btn btn-outline-light mb-2">
                   <i class="fa-brands fa-github"></i>
                   GitHub
                 </button>
@@ -514,10 +545,10 @@
               <div>
                 <div>
                   <p class="small fw-bold mt-3 mb-1">Technologies</p>
-                  <span class="badge bg-dark">Vue.Js</span>
-                  <span class="badge bg-dark">VueX</span>
-                  <span class="badge bg-dark">Laravel</span>
-                  <span class="badge bg-dark">Firebase</span>
+                  <span class="badge outline-light">Vue.Js</span>
+                  <span class="badge outline-light">VueX</span>
+                  <span class="badge outline-light">Laravel</span>
+                  <span class="badge outline-light">Firebase</span>
                 </div>
               </div>
             </div>
@@ -527,16 +558,43 @@
     </div>
   </section>
 
+  <section class="container ui-ux py-5" id="ui-ux">
+    <div class="row py-5">
+      <div class="col-md-6">
+        <h2 class="display-4">UI/UX Design</h2>
+        <p class="lead">I craft user-centered experiences that are both beautiful and functional.</p>
+        <p>I have a strong understanding of design principles and best practices, and I'm passionate about creating user interfaces that are intuitive, engaging, and accessible.</p>
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+            <img src="./assets/projects/designs/drivend.png" alt="drivend" class="img-fluid rounded-3 shadow-sm">
+          </div>
+          <div class="col-sm-6 mb-3">
+            <img src="./assets/projects/designs/inquest-ui.png" alt="inquest" class="img-fluid rounded-3 shadow-sm">
+          </div>
+        </div>
+        <a href="https://dribbble.com/gayansandamal" class="btn btn-success mt-3" target="_blank">
+          <i class="fa-brands fa-dribbble"></i>
+          See My Works on Dribble
+        </a>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <img src="./assets/projects/designs/choner-ui.png" alt="choner" class="img-fluid rounded-3 shadow">
+      </div>
+    </div>
+  </section>
+  
   <!-- Total experience -->
-  <section class="experience py-5">
-    <div class="container">
-      <h2 class="mb-4">Work Experience</h2>
-      <ul class="timeline">
-        <li class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+  <section id="experience" class="experience py-5 bg-dark bg-opacity-75 text-white">
+    <div class="container py-5">
+      <h2 class="display-4 mb-5">Work Experience</h2>
+      <div class="list-group">
+        <div class="list-group-item list-group-item-action bg-dark text-white outline-light">
+          <div class="timeline-content pt-3">
             <h3 class="timeline-title">GoTradie - Australia (Hybrid)</h3>
-            <span class="text-muted">Senior Software Engineer (Frontend) - August 2023 - Present</span>
+            <div class="d-flex w-100 justify-content-between">
+              <span class="job-title text-white">Senior Software Engineer (Frontend)</span>
+              <small>August 2023 - Present</small>
+            </div>
             <p>
               - Built cross-platform web and mobile app (Vue.Js, React Native) with modern tech (PWA, Javascript,
               TypeScript, React Queries, Storybook, GIT and Jest for unit tests) using Scrum and tools (JIRA,
@@ -548,12 +606,14 @@
               success feature developments.
             </p>
           </div>
-        </li>
-        <li class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+        </div>
+        <div class="list-group-item list-group-item-action bg-dark text-white outline-light">
+          <div class="timeline-content pt-3">
             <h3 class="timeline-title">OrangeHRM - Sri Lanka (Hybrid)</h3>
-            <span class="text-muted">Senior Software Engineer (Frontend) - November 2021 - August 2023</span>
+            <div class="d-flex w-100 justify-content-between">
+              <span class="job-title text-white">Senior Software Engineer (Frontend)</span>
+              <small>November 2021 - August 2023</small>
+            </div>
             <p>
               - Led OrangeHRM's front-end overhaul, prioritising UI/UX with modern frameworks (Vue.Js 3, VueX,
               Angular.Js) and agile tools (GIT, JIRA, Confluence, TWiki) for collaboration and documentation, quality,
@@ -563,12 +623,14 @@
               based on post-application surveys.
             </p>
           </div>
-        </li>
-        <li class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+        </div>
+        <div class="list-group-item list-group-item-action bg-dark text-white outline-light">
+          <div class="timeline-content pt-3">
             <h3 class="timeline-title">Aeturnum - Sri Lanka (Remote)</h3>
-            <span class="text-muted">Senior Software Engineer (Frontend) - June 2021 - October 2021</span>
+            <div class="d-flex w-100 justify-content-between">
+              <span class="job-title text-white">Senior Software Engineer (Frontend)</span>
+              <small>June 2021 - October 2021</small>
+            </div>
             <p>
               - Collaborated with stakeholders on POS bridge development for Line10, leading Nuxt.Js (Vue.Js framework
               with composition API decorators), TypeScript and architectural design and development for a user-centric
@@ -577,73 +639,86 @@
               Application.
             </p>
           </div>
-        </li>
-        <li class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+        </div>
+        <div class="list-group-item list-group-item-action bg-dark text-white outline-light">
+          <div class="timeline-content pt-3">
             <h3 class="timeline-title">PlatformOne - Sri Lanka (On-site)</h3>
             <ul class="promotions">
               <li class="promotion">
-                <span class="text-muted">Senior Software Engineer (Frontend) - January 2021 - May 2021</span>
+                <div class="d-flex w-100 justify-content-between">
+                  <span class="text-white job-title">Senior Software Engineer (Frontend)</span>
+                  <small>January 2021 - May 2021</small>
+                </div>
                 <p>
                   - Led front-end development across the entire software lifecycle, contributing micro front-ends for
                   maintainability, UX iteration, and best practices
-                  adherence (Vue.Js (Optional API), ISO 27001, GDPR).
+                  adherence (Vue.Js - Optional API, ISO 27001, GDPR).
                 </p>
               </li>
               <li class="promotion">
-                <span class="text-muted">Software Engineer (Frontend) - June 2018 - June 2021</span>
+                <div class="d-flex w-100 justify-content-between">
+                  <span class="text-white job-title">Software Engineer (Frontend)</span>
+                  <small>June 2018 - June 2021</small>
+                </div>
                 <p>
                   - Led front-end development across the entire software lifecycle, contributing micro front-ends for
                   maintainability, UX iteration, and best practices
-                  adherence (Vue.Js (Optional API), ISO 27001, GDPR).
+                  adherence (Vue.Js - Optional API, ISO 27001, GDPR).
                 </p>
               </li>
             </ul>
           </div>
-        </li>
-        <li class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+        </div>
+        <div class="list-group-item list-group-item-action bg-dark text-white outline-light">
+          <div class="timeline-content pt-3">
             <h3 class="timeline-title">Suwahas - Sri Lanka (On-site)</h3>
-            <span class="text-muted">Software Engineer (Frontend) - September 2017 - June 2018</span>
+            <div class="d-flex w-100 justify-content-between">
+              <span class="job-title text-white">Software Engineer (Frontend)</span>
+              <small>September 2017 - June 2018</small>
+            </div>
             <p>
               - Supported ERP development TrendyWear with vanilla JS, jQuery, PHP, MariaDB, and GIT.
             </p>
           </div>
-        </li>
-        <li class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+        </div>
+        <div class="list-group-item list-group-item-action bg-dark text-white outline-light">
+          <div class="timeline-content pt-3">
             <h3 class="timeline-title">Quard International - Sri Lanka (On-site)</h3>
-            <span class="text-muted">Web Developer - August 2016 - August 2017</span>
+            <div class="d-flex w-100 justify-content-between">
+              <span class="job-title text-white">Web Developer</span>
+              <small>August 2016 - August 2017</small>
+            </div>
             <p>
               - Supported ERP development TrendyWear with vanilla JS, jQuery, PHP, MariaDB, and GIT.
             </p>
           </div>
-        </li>
-        <li class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+        </div>
+        <div class="list-group-item list-group-item-action bg-dark text-white outline-light">
+          <div class="timeline-content pt-3">
             <h3 class="timeline-title">3CS - Sri Lanka (On-site)</h3>
-            <span class="text-muted">Associate Web Designer - Feb 2016 - August 2016</span>
+            <div class="d-flex w-100 justify-content-between">
+              <span class="job-title text-white">Associate Web Designer</span>
+              <small>Feb 2016 - August 2016</small>
+            </div>
             <p>
               - Skilled in website and application design using Adobe Photoshop, seamlessly transitioning to Figma and
               Adobe XD as industry standards evolved.
             </p>
           </div>
-        </li>
-        <li class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
+        </div>
+        <div class="list-group-item list-group-item-action bg-dark text-white outline-light">
+          <div class="timeline-content pt-3">
             <h3 class="timeline-title">Miami Exports - Sri Lanka (On-site)</h3>
-            <span class="text-muted">Intern Developer - June 2015 - August 2015</span>
+            <div class="d-flex w-100 justify-content-between">
+              <span class="job-title text-white">Intern Developer</span>
+              <small>June 2015 - August 2015</small>
+            </div>
             <p>
               - Intern web developer: front-end design & development.
             </p>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
   </section>
 
   <div id="snackbar" class="alert alert-success d-flex align-items-center" role="alert">
@@ -682,5 +757,27 @@
   </script>
   <script src="./script.js"></script>
 </body>
+
+<div class="py-3 bg-dark">
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center my-4 pt-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <img src="./favicon-32x32.png" class="rounded-3 me-3" alt="Gayan Sandamal">
+        <span class="text-muted">© <script>document.write(new Date().getFullYear())</script> Gayan Sandamal</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+</div>
 
 </html>
