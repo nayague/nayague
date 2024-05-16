@@ -19,7 +19,7 @@ function showToast(copyText) {
 }
 
 let imtxti = 0;
-let imtxt = `I'm a`; /* The text */
+let imtxt = `I'm Gayan`; /* The text */
 let speed = 50; /* The speed/duration of the effect in milliseconds */
 
 const typeWriterIm = () => {
@@ -35,7 +35,7 @@ const typeWriterIm = () => {
 typeWriterIm(); 
 
 let fltxti = 0;
-let fltxt = 'Full-Stack'
+let fltxt = 'a JavaScript Enthusiast with'
 const typeWriterFS = () => {
   if (fltxti < fltxt.length) {
     document.getElementById("fullstack").innerHTML += fltxt.charAt(fltxti);
@@ -47,7 +47,7 @@ const typeWriterFS = () => {
 }
 
 let setxti = 0;
-let setxt = 'Software Engineer'
+let setxt = 'Vue.js Fixation'
 const typeWriterSE = () => {
   if (setxti < setxt.length) {
     document.getElementById("se").innerHTML += setxt.charAt(setxti);
