@@ -12,6 +12,9 @@ header {
   align-items: center;
 }
 
+.main-nav-ul {
+  align-items: center;
+}
 nav ul {
   list-style: none;
   margin: 0;
@@ -75,7 +78,7 @@ ul.timeline {
 }
 
 .project-card:hover {
-  transform: scale(1.05,1.05);
+  transform: scale(1.05, 1.05);
   transition: all 0.3s ease-in-out;
 }
 
@@ -83,6 +86,7 @@ ul.timeline {
   .modal-dialog.max-limit {
     max-width: calc(100% - 10rem);
   }
+
   .hero-txt {
     min-height: 288px;
   }
@@ -200,6 +204,8 @@ button.carousel-control-next {
   background-position: right;
   background-size: cover;
   opacity: 0.1;
+  top: 0;
+  right: 0;
 }
 
 .z-1 {
