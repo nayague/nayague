@@ -97,6 +97,19 @@ ul.timeline {
     font-size: 2.4rem;
     min-height: 138px;
   }
+  .main-nav-ul {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main-nav-ul {
+    font-size: 12px;
+  }
+  .main-nav-ul > li > a{
+    padding-left: 0.45rem !important;
+    padding-right: 0.45rem !important;
+  }
 }
 
 /* The snackbar - position it at the bottom and in the middle of the screen */
@@ -211,4 +224,9 @@ button.carousel-control-next {
 .z-1 {
   position: relative;
   z-index: 1;
+}
+
+.bg-dark.text-white p a {
+  color: rgb(180, 219, 255);
+  text-decoration: underline;
 }
