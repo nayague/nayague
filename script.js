@@ -47,7 +47,7 @@ const typeWriterFS = () => {
 }
 
 let setxti = 0;
-let setxt = 'Vue.js Fixation'
+let setxt = 'Vue and React Fixation'
 const typeWriterSE = () => {
   if (setxti < setxt.length) {
     document.getElementById("se").innerHTML += setxt.charAt(setxti);
