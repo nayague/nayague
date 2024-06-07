@@ -230,3 +230,31 @@ button.carousel-control-next {
   color: rgb(180, 219, 255);
   text-decoration: underline;
 }
+
+.reviews-controllers {
+  background: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0)) !important;
+  width: auto !important;
+}
+
+.reviewer-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#carouselReviews .carousel-inner {
+  padding: 1.5rem 2.5rem 3.5rem 2.5rem;
+}
+
+#carouselReviews .card.rounded-3 {
+  border-radius: 1rem !important;
+  margin-bottom: 2rem;
+}
+
+#carouselReviews .card-title {
+  font-size: 1rem;
+}
+
+#carouselReviews p {
+  font-size: 0.8rem;
+}
